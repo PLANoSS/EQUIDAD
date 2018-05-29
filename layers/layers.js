@@ -1,4 +1,17 @@
 var wms_layers = [];
+var baseLayer = new ol.layer.Group({
+    'title': '',
+    layers: [
+new ol.layer.Tile({
+    'title': 'OSM B&W',
+    'type': 'base',
+    source: new ol.source.XYZ({
+        url: 'http://{a-c}.www.toolserver.org/tiles/bw-mapnik/{z}/{x}/{y}.png',
+        attributions: [new ol.Attribution({html: '&copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>'})]
+    })
+})
+]
+});
 var format_Creequeelmedioquediseminamsestereotiposdegneroesenlostrabajos_0 = new ol.format.GeoJSON();
 var features_Creequeelmedioquediseminamsestereotiposdegneroesenlostrabajos_0 = format_Creequeelmedioquediseminamsestereotiposdegneroesenlostrabajos_0.readFeatures(json_Creequeelmedioquediseminamsestereotiposdegneroesenlostrabajos_0, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
@@ -130,7 +143,7 @@ jsonSource_Totalmentedeacuerdoconquetodalafamiliasufrecuandolamadretienetrabajoa
         });
 
 lyr_Creequeelmedioquediseminamsestereotiposdegneroesenlostrabajos_0.setVisible(true);lyr_Entiendelaviolenciaenelhogarcomoviolenciafsicaentremiembrosdelafamilia_1.setVisible(true);lyr_Asegurarbeneficiossocialesparaincluiralapoblacinenelmercadolaboral_2.setVisible(true);lyr_Estdeacuerdoconqueenlaactualidadhaydesigualdadesentrehombresymujeres_3.setVisible(true);lyr_Totalmentedeacuerdoconqueunpadreounamadredebeponersucarreraporencimadelcuidadodesushijos_4.setVisible(true);lyr_Tiendeaestardeacuerdoconqueloshombrestrabajenmsenelcuidadodelosnios_5.setVisible(true);lyr_Tiendeaestardeacuerdoconqueloshombresestnmenoscalificadosquelasmujeresparalastareasdelhogar_6.setVisible(true);lyr_Totalmentedeacuerdoconquetodalafamiliasufrecuandolamadretienetrabajoatiempocompleto_7.setVisible(true);
-var layersList = [lyr_Creequeelmedioquediseminamsestereotiposdegneroesenlostrabajos_0,lyr_Entiendelaviolenciaenelhogarcomoviolenciafsicaentremiembrosdelafamilia_1,lyr_Asegurarbeneficiossocialesparaincluiralapoblacinenelmercadolaboral_2,lyr_Estdeacuerdoconqueenlaactualidadhaydesigualdadesentrehombresymujeres_3,lyr_Totalmentedeacuerdoconqueunpadreounamadredebeponersucarreraporencimadelcuidadodesushijos_4,lyr_Tiendeaestardeacuerdoconqueloshombrestrabajenmsenelcuidadodelosnios_5,lyr_Tiendeaestardeacuerdoconqueloshombresestnmenoscalificadosquelasmujeresparalastareasdelhogar_6,lyr_Totalmentedeacuerdoconquetodalafamiliasufrecuandolamadretienetrabajoatiempocompleto_7];
+var layersList = [baseLayer,lyr_Creequeelmedioquediseminamsestereotiposdegneroesenlostrabajos_0,lyr_Entiendelaviolenciaenelhogarcomoviolenciafsicaentremiembrosdelafamilia_1,lyr_Asegurarbeneficiossocialesparaincluiralapoblacinenelmercadolaboral_2,lyr_Estdeacuerdoconqueenlaactualidadhaydesigualdadesentrehombresymujeres_3,lyr_Totalmentedeacuerdoconqueunpadreounamadredebeponersucarreraporencimadelcuidadodesushijos_4,lyr_Tiendeaestardeacuerdoconqueloshombrestrabajenmsenelcuidadodelosnios_5,lyr_Tiendeaestardeacuerdoconqueloshombresestnmenoscalificadosquelasmujeresparalastareasdelhogar_6,lyr_Totalmentedeacuerdoconquetodalafamiliasufrecuandolamadretienetrabajoatiempocompleto_7];
 lyr_Creequeelmedioquediseminamsestereotiposdegneroesenlostrabajos_0.set('fieldAliases', {'Codigo': 'Codigo', 'Cantón': 'Cantón', 'Provincia': 'Provincia', 'Grafica': 'Grafica', 'En los tra': 'En los tra', });
 lyr_Entiendelaviolenciaenelhogarcomoviolenciafsicaentremiembrosdelafamilia_1.set('fieldAliases', {'Codigo': 'Codigo', 'Cantón': 'Cantón', 'Provincia': 'Provincia', 'Grafica': 'Grafica', 'Violencia': 'Violencia', });
 lyr_Asegurarbeneficiossocialesparaincluiralapoblacinenelmercadolaboral_2.set('fieldAliases', {'Codigo': 'Codigo', 'Cantón': 'Cantón', 'Provincia': 'Provincia', 'Grafica': 'Grafica', 'Asegurándo': 'Asegurándo', });
