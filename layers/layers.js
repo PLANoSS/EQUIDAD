@@ -60,22 +60,22 @@ jsonSource_Asegurarbeneficiossocialesparaincluiralapoblacinenelmercadolaboral_2.
     <img src="styles/legend/Asegurarbeneficiossocialesparaincluiralapoblacinenelmercadolaboral_2_2.png" />  40 - 60 <br />\
     <img src="styles/legend/Asegurarbeneficiossocialesparaincluiralapoblacinenelmercadolaboral_2_3.png" />  60 - 80 <br />\
     <img src="styles/legend/Asegurarbeneficiossocialesparaincluiralapoblacinenelmercadolaboral_2_4.png" />  80 - 100 <br />'
-        });var format_Estdeacuerdoconqueenlaactualidadhaydesigualdadesentrehombresymujeres_3 = new ol.format.GeoJSON();
-var features_Estdeacuerdoconqueenlaactualidadhaydesigualdadesentrehombresymujeres_3 = format_Estdeacuerdoconqueenlaactualidadhaydesigualdadesentrehombresymujeres_3.readFeatures(json_Estdeacuerdoconqueenlaactualidadhaydesigualdadesentrehombresymujeres_3, 
+        });var format_Anhaydesigualdadesentrehombresymujeres_3 = new ol.format.GeoJSON();
+var features_Anhaydesigualdadesentrehombresymujeres_3 = format_Anhaydesigualdadesentrehombresymujeres_3.readFeatures(json_Anhaydesigualdadesentrehombresymujeres_3, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_Estdeacuerdoconqueenlaactualidadhaydesigualdadesentrehombresymujeres_3 = new ol.source.Vector({
+var jsonSource_Anhaydesigualdadesentrehombresymujeres_3 = new ol.source.Vector({
     attributions: [new ol.Attribution({html: '<a href=""></a>'})],
 });
-jsonSource_Estdeacuerdoconqueenlaactualidadhaydesigualdadesentrehombresymujeres_3.addFeatures(features_Estdeacuerdoconqueenlaactualidadhaydesigualdadesentrehombresymujeres_3);var lyr_Estdeacuerdoconqueenlaactualidadhaydesigualdadesentrehombresymujeres_3 = new ol.layer.Vector({
+jsonSource_Anhaydesigualdadesentrehombresymujeres_3.addFeatures(features_Anhaydesigualdadesentrehombresymujeres_3);var lyr_Anhaydesigualdadesentrehombresymujeres_3 = new ol.layer.Vector({
                 declutter: true,
-                source:jsonSource_Estdeacuerdoconqueenlaactualidadhaydesigualdadesentrehombresymujeres_3, 
-                style: style_Estdeacuerdoconqueenlaactualidadhaydesigualdadesentrehombresymujeres_3,
-    title: 'Está de acuerdo con que en la actualidad hay desigualdades entre hombres y mujeres<br />\
-    <img src="styles/legend/Estdeacuerdoconqueenlaactualidadhaydesigualdadesentrehombresymujeres_3_0.png" />  0 - 20 <br />\
-    <img src="styles/legend/Estdeacuerdoconqueenlaactualidadhaydesigualdadesentrehombresymujeres_3_1.png" />  20 - 40 <br />\
-    <img src="styles/legend/Estdeacuerdoconqueenlaactualidadhaydesigualdadesentrehombresymujeres_3_2.png" />  40 - 60 <br />\
-    <img src="styles/legend/Estdeacuerdoconqueenlaactualidadhaydesigualdadesentrehombresymujeres_3_3.png" />  60 - 80 <br />\
-    <img src="styles/legend/Estdeacuerdoconqueenlaactualidadhaydesigualdadesentrehombresymujeres_3_4.png" />  80 - 100 <br />'
+                source:jsonSource_Anhaydesigualdadesentrehombresymujeres_3, 
+                style: style_Anhaydesigualdadesentrehombresymujeres_3,
+    title: 'Aún hay desigualdades entre hombres y mujeres<br />\
+    <img src="styles/legend/Anhaydesigualdadesentrehombresymujeres_3_0.png" />  0 - 20 <br />\
+    <img src="styles/legend/Anhaydesigualdadesentrehombresymujeres_3_1.png" />  20 - 40 <br />\
+    <img src="styles/legend/Anhaydesigualdadesentrehombresymujeres_3_2.png" />  40 - 60 <br />\
+    <img src="styles/legend/Anhaydesigualdadesentrehombresymujeres_3_3.png" />  60 - 80 <br />\
+    <img src="styles/legend/Anhaydesigualdadesentrehombresymujeres_3_4.png" />  80 - 100 <br />'
         });var format_Totalmentedeacuerdoconqueunpadreounamadredebeponersucarreraporencimadelcuidadodesushijos_4 = new ol.format.GeoJSON();
 var features_Totalmentedeacuerdoconqueunpadreounamadredebeponersucarreraporencimadelcuidadodesushijos_4 = format_Totalmentedeacuerdoconqueunpadreounamadredebeponersucarreraporencimadelcuidadodesushijos_4.readFeatures(json_Totalmentedeacuerdoconqueunpadreounamadredebeponersucarreraporencimadelcuidadodesushijos_4, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
@@ -92,38 +92,38 @@ jsonSource_Totalmentedeacuerdoconqueunpadreounamadredebeponersucarreraporencimad
     <img src="styles/legend/Totalmentedeacuerdoconqueunpadreounamadredebeponersucarreraporencimadelcuidadodesushijos_4_2.png" />  40 - 60 <br />\
     <img src="styles/legend/Totalmentedeacuerdoconqueunpadreounamadredebeponersucarreraporencimadelcuidadodesushijos_4_3.png" />  60 - 80 <br />\
     <img src="styles/legend/Totalmentedeacuerdoconqueunpadreounamadredebeponersucarreraporencimadelcuidadodesushijos_4_4.png" />  80 - 100 <br />'
-        });var format_Tiendeaestardeacuerdoconqueloshombrestrabajenmsenelcuidadodelosnios_5 = new ol.format.GeoJSON();
-var features_Tiendeaestardeacuerdoconqueloshombrestrabajenmsenelcuidadodelosnios_5 = format_Tiendeaestardeacuerdoconqueloshombrestrabajenmsenelcuidadodelosnios_5.readFeatures(json_Tiendeaestardeacuerdoconqueloshombrestrabajenmsenelcuidadodelosnios_5, 
+        });var format_Tiendeaestardeacuerdoconqueloshombresestnmenoscalificadosquelasmujeresparalastareasdelhogar_5 = new ol.format.GeoJSON();
+var features_Tiendeaestardeacuerdoconqueloshombresestnmenoscalificadosquelasmujeresparalastareasdelhogar_5 = format_Tiendeaestardeacuerdoconqueloshombresestnmenoscalificadosquelasmujeresparalastareasdelhogar_5.readFeatures(json_Tiendeaestardeacuerdoconqueloshombresestnmenoscalificadosquelasmujeresparalastareasdelhogar_5, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_Tiendeaestardeacuerdoconqueloshombrestrabajenmsenelcuidadodelosnios_5 = new ol.source.Vector({
+var jsonSource_Tiendeaestardeacuerdoconqueloshombresestnmenoscalificadosquelasmujeresparalastareasdelhogar_5 = new ol.source.Vector({
     attributions: [new ol.Attribution({html: '<a href=""></a>'})],
 });
-jsonSource_Tiendeaestardeacuerdoconqueloshombrestrabajenmsenelcuidadodelosnios_5.addFeatures(features_Tiendeaestardeacuerdoconqueloshombrestrabajenmsenelcuidadodelosnios_5);var lyr_Tiendeaestardeacuerdoconqueloshombrestrabajenmsenelcuidadodelosnios_5 = new ol.layer.Vector({
+jsonSource_Tiendeaestardeacuerdoconqueloshombresestnmenoscalificadosquelasmujeresparalastareasdelhogar_5.addFeatures(features_Tiendeaestardeacuerdoconqueloshombresestnmenoscalificadosquelasmujeresparalastareasdelhogar_5);var lyr_Tiendeaestardeacuerdoconqueloshombresestnmenoscalificadosquelasmujeresparalastareasdelhogar_5 = new ol.layer.Vector({
                 declutter: true,
-                source:jsonSource_Tiendeaestardeacuerdoconqueloshombrestrabajenmsenelcuidadodelosnios_5, 
-                style: style_Tiendeaestardeacuerdoconqueloshombrestrabajenmsenelcuidadodelosnios_5,
-    title: 'Tiende a estar de acuerdo con que los hombres trabajen más en el cuidado de los niños<br />\
-    <img src="styles/legend/Tiendeaestardeacuerdoconqueloshombrestrabajenmsenelcuidadodelosnios_5_0.png" />  0 - 20 <br />\
-    <img src="styles/legend/Tiendeaestardeacuerdoconqueloshombrestrabajenmsenelcuidadodelosnios_5_1.png" />  20 - 40 <br />\
-    <img src="styles/legend/Tiendeaestardeacuerdoconqueloshombrestrabajenmsenelcuidadodelosnios_5_2.png" />  40 - 60 <br />\
-    <img src="styles/legend/Tiendeaestardeacuerdoconqueloshombrestrabajenmsenelcuidadodelosnios_5_3.png" />  60 - 80 <br />\
-    <img src="styles/legend/Tiendeaestardeacuerdoconqueloshombrestrabajenmsenelcuidadodelosnios_5_4.png" />  80 - 100 <br />'
-        });var format_Tiendeaestardeacuerdoconqueloshombresestnmenoscalificadosquelasmujeresparalastareasdelhogar_6 = new ol.format.GeoJSON();
-var features_Tiendeaestardeacuerdoconqueloshombresestnmenoscalificadosquelasmujeresparalastareasdelhogar_6 = format_Tiendeaestardeacuerdoconqueloshombresestnmenoscalificadosquelasmujeresparalastareasdelhogar_6.readFeatures(json_Tiendeaestardeacuerdoconqueloshombresestnmenoscalificadosquelasmujeresparalastareasdelhogar_6, 
-            {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_Tiendeaestardeacuerdoconqueloshombresestnmenoscalificadosquelasmujeresparalastareasdelhogar_6 = new ol.source.Vector({
-    attributions: [new ol.Attribution({html: '<a href=""></a>'})],
-});
-jsonSource_Tiendeaestardeacuerdoconqueloshombresestnmenoscalificadosquelasmujeresparalastareasdelhogar_6.addFeatures(features_Tiendeaestardeacuerdoconqueloshombresestnmenoscalificadosquelasmujeresparalastareasdelhogar_6);var lyr_Tiendeaestardeacuerdoconqueloshombresestnmenoscalificadosquelasmujeresparalastareasdelhogar_6 = new ol.layer.Vector({
-                declutter: true,
-                source:jsonSource_Tiendeaestardeacuerdoconqueloshombresestnmenoscalificadosquelasmujeresparalastareasdelhogar_6, 
-                style: style_Tiendeaestardeacuerdoconqueloshombresestnmenoscalificadosquelasmujeresparalastareasdelhogar_6,
+                source:jsonSource_Tiendeaestardeacuerdoconqueloshombresestnmenoscalificadosquelasmujeresparalastareasdelhogar_5, 
+                style: style_Tiendeaestardeacuerdoconqueloshombresestnmenoscalificadosquelasmujeresparalastareasdelhogar_5,
     title: 'Tiende a estar de acuerdo con que los hombres están menos calificados que las mujeres para las tareas del hogar<br />\
-    <img src="styles/legend/Tiendeaestardeacuerdoconqueloshombresestnmenoscalificadosquelasmujeresparalastareasdelhogar_6_0.png" />  0 - 20 <br />\
-    <img src="styles/legend/Tiendeaestardeacuerdoconqueloshombresestnmenoscalificadosquelasmujeresparalastareasdelhogar_6_1.png" />  20 - 40 <br />\
-    <img src="styles/legend/Tiendeaestardeacuerdoconqueloshombresestnmenoscalificadosquelasmujeresparalastareasdelhogar_6_2.png" />  40 - 60 <br />\
-    <img src="styles/legend/Tiendeaestardeacuerdoconqueloshombresestnmenoscalificadosquelasmujeresparalastareasdelhogar_6_3.png" />  60 - 80 <br />\
-    <img src="styles/legend/Tiendeaestardeacuerdoconqueloshombresestnmenoscalificadosquelasmujeresparalastareasdelhogar_6_4.png" />  80 - 100 <br />'
+    <img src="styles/legend/Tiendeaestardeacuerdoconqueloshombresestnmenoscalificadosquelasmujeresparalastareasdelhogar_5_0.png" />  0 - 20 <br />\
+    <img src="styles/legend/Tiendeaestardeacuerdoconqueloshombresestnmenoscalificadosquelasmujeresparalastareasdelhogar_5_1.png" />  20 - 40 <br />\
+    <img src="styles/legend/Tiendeaestardeacuerdoconqueloshombresestnmenoscalificadosquelasmujeresparalastareasdelhogar_5_2.png" />  40 - 60 <br />\
+    <img src="styles/legend/Tiendeaestardeacuerdoconqueloshombresestnmenoscalificadosquelasmujeresparalastareasdelhogar_5_3.png" />  60 - 80 <br />\
+    <img src="styles/legend/Tiendeaestardeacuerdoconqueloshombresestnmenoscalificadosquelasmujeresparalastareasdelhogar_5_4.png" />  80 - 100 <br />'
+        });var format_Tiendeaestardeacuerdoconqueloshombrestrabajenmsenelcuidadodelosnios_6 = new ol.format.GeoJSON();
+var features_Tiendeaestardeacuerdoconqueloshombrestrabajenmsenelcuidadodelosnios_6 = format_Tiendeaestardeacuerdoconqueloshombrestrabajenmsenelcuidadodelosnios_6.readFeatures(json_Tiendeaestardeacuerdoconqueloshombrestrabajenmsenelcuidadodelosnios_6, 
+            {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
+var jsonSource_Tiendeaestardeacuerdoconqueloshombrestrabajenmsenelcuidadodelosnios_6 = new ol.source.Vector({
+    attributions: [new ol.Attribution({html: '<a href=""></a>'})],
+});
+jsonSource_Tiendeaestardeacuerdoconqueloshombrestrabajenmsenelcuidadodelosnios_6.addFeatures(features_Tiendeaestardeacuerdoconqueloshombrestrabajenmsenelcuidadodelosnios_6);var lyr_Tiendeaestardeacuerdoconqueloshombrestrabajenmsenelcuidadodelosnios_6 = new ol.layer.Vector({
+                declutter: true,
+                source:jsonSource_Tiendeaestardeacuerdoconqueloshombrestrabajenmsenelcuidadodelosnios_6, 
+                style: style_Tiendeaestardeacuerdoconqueloshombrestrabajenmsenelcuidadodelosnios_6,
+    title: 'Tiende a estar de acuerdo con que los hombres trabajen más en el cuidado de los niños<br />\
+    <img src="styles/legend/Tiendeaestardeacuerdoconqueloshombrestrabajenmsenelcuidadodelosnios_6_0.png" />  0 - 20 <br />\
+    <img src="styles/legend/Tiendeaestardeacuerdoconqueloshombrestrabajenmsenelcuidadodelosnios_6_1.png" />  20 - 40 <br />\
+    <img src="styles/legend/Tiendeaestardeacuerdoconqueloshombrestrabajenmsenelcuidadodelosnios_6_2.png" />  40 - 60 <br />\
+    <img src="styles/legend/Tiendeaestardeacuerdoconqueloshombrestrabajenmsenelcuidadodelosnios_6_3.png" />  60 - 80 <br />\
+    <img src="styles/legend/Tiendeaestardeacuerdoconqueloshombrestrabajenmsenelcuidadodelosnios_6_4.png" />  80 - 100 <br />'
         });var format_Totalmentedeacuerdoconquetodalafamiliasufrecuandolamadretienetrabajoatiempocompleto_7 = new ol.format.GeoJSON();
 var features_Totalmentedeacuerdoconquetodalafamiliasufrecuandolamadretienetrabajoatiempocompleto_7 = format_Totalmentedeacuerdoconquetodalafamiliasufrecuandolamadretienetrabajoatiempocompleto_7.readFeatures(json_Totalmentedeacuerdoconquetodalafamiliasufrecuandolamadretienetrabajoatiempocompleto_7, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
@@ -142,31 +142,31 @@ jsonSource_Totalmentedeacuerdoconquetodalafamiliasufrecuandolamadretienetrabajoa
     <img src="styles/legend/Totalmentedeacuerdoconquetodalafamiliasufrecuandolamadretienetrabajoatiempocompleto_7_4.png" />  80 - 100 <br />'
         });
 
-lyr_Creequeelmedioquediseminamsestereotiposdegneroesenlostrabajos_0.setVisible(true);lyr_Entiendelaviolenciaenelhogarcomoviolenciafsicaentremiembrosdelafamilia_1.setVisible(true);lyr_Asegurarbeneficiossocialesparaincluiralapoblacinenelmercadolaboral_2.setVisible(true);lyr_Estdeacuerdoconqueenlaactualidadhaydesigualdadesentrehombresymujeres_3.setVisible(true);lyr_Totalmentedeacuerdoconqueunpadreounamadredebeponersucarreraporencimadelcuidadodesushijos_4.setVisible(true);lyr_Tiendeaestardeacuerdoconqueloshombrestrabajenmsenelcuidadodelosnios_5.setVisible(true);lyr_Tiendeaestardeacuerdoconqueloshombresestnmenoscalificadosquelasmujeresparalastareasdelhogar_6.setVisible(true);lyr_Totalmentedeacuerdoconquetodalafamiliasufrecuandolamadretienetrabajoatiempocompleto_7.setVisible(true);
-var layersList = [baseLayer,lyr_Creequeelmedioquediseminamsestereotiposdegneroesenlostrabajos_0,lyr_Entiendelaviolenciaenelhogarcomoviolenciafsicaentremiembrosdelafamilia_1,lyr_Asegurarbeneficiossocialesparaincluiralapoblacinenelmercadolaboral_2,lyr_Estdeacuerdoconqueenlaactualidadhaydesigualdadesentrehombresymujeres_3,lyr_Totalmentedeacuerdoconqueunpadreounamadredebeponersucarreraporencimadelcuidadodesushijos_4,lyr_Tiendeaestardeacuerdoconqueloshombrestrabajenmsenelcuidadodelosnios_5,lyr_Tiendeaestardeacuerdoconqueloshombresestnmenoscalificadosquelasmujeresparalastareasdelhogar_6,lyr_Totalmentedeacuerdoconquetodalafamiliasufrecuandolamadretienetrabajoatiempocompleto_7];
+lyr_Creequeelmedioquediseminamsestereotiposdegneroesenlostrabajos_0.setVisible(true);lyr_Entiendelaviolenciaenelhogarcomoviolenciafsicaentremiembrosdelafamilia_1.setVisible(true);lyr_Asegurarbeneficiossocialesparaincluiralapoblacinenelmercadolaboral_2.setVisible(true);lyr_Anhaydesigualdadesentrehombresymujeres_3.setVisible(true);lyr_Totalmentedeacuerdoconqueunpadreounamadredebeponersucarreraporencimadelcuidadodesushijos_4.setVisible(true);lyr_Tiendeaestardeacuerdoconqueloshombresestnmenoscalificadosquelasmujeresparalastareasdelhogar_5.setVisible(true);lyr_Tiendeaestardeacuerdoconqueloshombrestrabajenmsenelcuidadodelosnios_6.setVisible(true);lyr_Totalmentedeacuerdoconquetodalafamiliasufrecuandolamadretienetrabajoatiempocompleto_7.setVisible(true);
+var layersList = [baseLayer,lyr_Creequeelmedioquediseminamsestereotiposdegneroesenlostrabajos_0,lyr_Entiendelaviolenciaenelhogarcomoviolenciafsicaentremiembrosdelafamilia_1,lyr_Asegurarbeneficiossocialesparaincluiralapoblacinenelmercadolaboral_2,lyr_Anhaydesigualdadesentrehombresymujeres_3,lyr_Totalmentedeacuerdoconqueunpadreounamadredebeponersucarreraporencimadelcuidadodesushijos_4,lyr_Tiendeaestardeacuerdoconqueloshombresestnmenoscalificadosquelasmujeresparalastareasdelhogar_5,lyr_Tiendeaestardeacuerdoconqueloshombrestrabajenmsenelcuidadodelosnios_6,lyr_Totalmentedeacuerdoconquetodalafamiliasufrecuandolamadretienetrabajoatiempocompleto_7];
 lyr_Creequeelmedioquediseminamsestereotiposdegneroesenlostrabajos_0.set('fieldAliases', {'Codigo': 'Codigo', 'Cantón': 'Cantón', 'Provincia': 'Provincia', 'Grafica': 'Grafica', 'En los tra': 'En los tra', });
 lyr_Entiendelaviolenciaenelhogarcomoviolenciafsicaentremiembrosdelafamilia_1.set('fieldAliases', {'Codigo': 'Codigo', 'Cantón': 'Cantón', 'Provincia': 'Provincia', 'Grafica': 'Grafica', 'Violencia': 'Violencia', });
 lyr_Asegurarbeneficiossocialesparaincluiralapoblacinenelmercadolaboral_2.set('fieldAliases', {'Codigo': 'Codigo', 'Cantón': 'Cantón', 'Provincia': 'Provincia', 'Grafica': 'Grafica', 'Asegurándo': 'Asegurándo', });
-lyr_Estdeacuerdoconqueenlaactualidadhaydesigualdadesentrehombresymujeres_3.set('fieldAliases', {'Codigo': 'Codigo', 'Cantón': 'Cantón', 'Provincia': 'Provincia', 'Grafica': 'Grafica', 'Si, hay mu': 'Si, hay mu', });
+lyr_Anhaydesigualdadesentrehombresymujeres_3.set('fieldAliases', {'Codigo': 'Codigo', 'Cantón': 'Cantón', 'Provincia': 'Provincia', 'Grafica': 'Grafica', 'Si, hay mu': 'Si, hay mu', });
 lyr_Totalmentedeacuerdoconqueunpadreounamadredebeponersucarreraporencimadelcuidadodesushijos_4.set('fieldAliases', {'Codigo': 'Codigo', 'Cantón': 'Cantón', 'Provincia': 'Provincia', 'Grafica': 'Grafica', 'Totalmente': 'Totalmente', });
-lyr_Tiendeaestardeacuerdoconqueloshombrestrabajenmsenelcuidadodelosnios_5.set('fieldAliases', {'Codigo': 'Codigo', 'Cantón': 'Cantón', 'Provincia': 'Provincia', 'Grafica': 'Grafica', 'Tiendo a e': 'Tiendo a e', });
-lyr_Tiendeaestardeacuerdoconqueloshombresestnmenoscalificadosquelasmujeresparalastareasdelhogar_6.set('fieldAliases', {'Codigo': 'Codigo', 'Cantón': 'Cantón', 'Provincia': 'Provincia', 'Grafica': 'Grafica', 'Tiendo a e': 'Tiendo a e', });
+lyr_Tiendeaestardeacuerdoconqueloshombresestnmenoscalificadosquelasmujeresparalastareasdelhogar_5.set('fieldAliases', {'Codigo': 'Codigo', 'Cantón': 'Cantón', 'Provincia': 'Provincia', 'Grafica': 'Grafica', 'Tiendo a e': 'Tiendo a e', });
+lyr_Tiendeaestardeacuerdoconqueloshombrestrabajenmsenelcuidadodelosnios_6.set('fieldAliases', {'Codigo': 'Codigo', 'Cantón': 'Cantón', 'Provincia': 'Provincia', 'Grafica': 'Grafica', 'Tiendo a e': 'Tiendo a e', });
 lyr_Totalmentedeacuerdoconquetodalafamiliasufrecuandolamadretienetrabajoatiempocompleto_7.set('fieldAliases', {'Codigo': 'Codigo', 'Cantón': 'Cantón', 'Provincia': 'Provincia', 'Grafica': 'Grafica', 'Totalmente': 'Totalmente', });
 lyr_Creequeelmedioquediseminamsestereotiposdegneroesenlostrabajos_0.set('fieldImages', {'Codigo': 'Hidden', 'Cantón': 'TextEdit', 'Provincia': 'TextEdit', 'Grafica': 'Photo', 'En los tra': 'TextEdit', });
 lyr_Entiendelaviolenciaenelhogarcomoviolenciafsicaentremiembrosdelafamilia_1.set('fieldImages', {'Codigo': 'Hidden', 'Cantón': 'TextEdit', 'Provincia': 'TextEdit', 'Grafica': 'Photo', 'Violencia': 'TextEdit', });
 lyr_Asegurarbeneficiossocialesparaincluiralapoblacinenelmercadolaboral_2.set('fieldImages', {'Codigo': 'Hidden', 'Cantón': 'TextEdit', 'Provincia': 'TextEdit', 'Grafica': 'Photo', 'Asegurándo': 'TextEdit', });
-lyr_Estdeacuerdoconqueenlaactualidadhaydesigualdadesentrehombresymujeres_3.set('fieldImages', {'Codigo': 'Hidden', 'Cantón': 'TextEdit', 'Provincia': 'TextEdit', 'Grafica': 'Photo', 'Si, hay mu': 'TextEdit', });
+lyr_Anhaydesigualdadesentrehombresymujeres_3.set('fieldImages', {'Codigo': 'Hidden', 'Cantón': 'TextEdit', 'Provincia': 'TextEdit', 'Grafica': 'Photo', 'Si, hay mu': 'TextEdit', });
 lyr_Totalmentedeacuerdoconqueunpadreounamadredebeponersucarreraporencimadelcuidadodesushijos_4.set('fieldImages', {'Codigo': 'Hidden', 'Cantón': 'TextEdit', 'Provincia': 'TextEdit', 'Grafica': 'Photo', 'Totalmente': 'TextEdit', });
-lyr_Tiendeaestardeacuerdoconqueloshombrestrabajenmsenelcuidadodelosnios_5.set('fieldImages', {'Codigo': 'Hidden', 'Cantón': 'TextEdit', 'Provincia': 'TextEdit', 'Grafica': 'Photo', 'Tiendo a e': 'TextEdit', });
-lyr_Tiendeaestardeacuerdoconqueloshombresestnmenoscalificadosquelasmujeresparalastareasdelhogar_6.set('fieldImages', {'Codigo': 'Hidden', 'Cantón': 'TextEdit', 'Provincia': 'TextEdit', 'Grafica': 'Photo', 'Tiendo a e': 'TextEdit', });
+lyr_Tiendeaestardeacuerdoconqueloshombresestnmenoscalificadosquelasmujeresparalastareasdelhogar_5.set('fieldImages', {'Codigo': 'Hidden', 'Cantón': 'TextEdit', 'Provincia': 'TextEdit', 'Grafica': 'Photo', 'Tiendo a e': 'TextEdit', });
+lyr_Tiendeaestardeacuerdoconqueloshombrestrabajenmsenelcuidadodelosnios_6.set('fieldImages', {'Codigo': 'Hidden', 'Cantón': 'TextEdit', 'Provincia': 'TextEdit', 'Grafica': 'Photo', 'Tiendo a e': 'TextEdit', });
 lyr_Totalmentedeacuerdoconquetodalafamiliasufrecuandolamadretienetrabajoatiempocompleto_7.set('fieldImages', {'Codigo': 'Hidden', 'Cantón': 'TextEdit', 'Provincia': 'TextEdit', 'Grafica': 'Photo', 'Totalmente': 'TextEdit', });
 lyr_Creequeelmedioquediseminamsestereotiposdegneroesenlostrabajos_0.set('fieldLabels', {'Cantón': 'no label', 'Provincia': 'no label', 'Grafica': 'no label', 'En los tra': 'no label', });
 lyr_Entiendelaviolenciaenelhogarcomoviolenciafsicaentremiembrosdelafamilia_1.set('fieldLabels', {'Cantón': 'no label', 'Provincia': 'no label', 'Grafica': 'no label', 'Violencia': 'no label', });
 lyr_Asegurarbeneficiossocialesparaincluiralapoblacinenelmercadolaboral_2.set('fieldLabels', {'Cantón': 'no label', 'Provincia': 'no label', 'Grafica': 'no label', 'Asegurándo': 'no label', });
-lyr_Estdeacuerdoconqueenlaactualidadhaydesigualdadesentrehombresymujeres_3.set('fieldLabels', {'Cantón': 'no label', 'Provincia': 'no label', 'Grafica': 'no label', 'Si, hay mu': 'no label', });
+lyr_Anhaydesigualdadesentrehombresymujeres_3.set('fieldLabels', {'Cantón': 'no label', 'Provincia': 'no label', 'Grafica': 'no label', 'Si, hay mu': 'no label', });
 lyr_Totalmentedeacuerdoconqueunpadreounamadredebeponersucarreraporencimadelcuidadodesushijos_4.set('fieldLabels', {'Cantón': 'no label', 'Provincia': 'no label', 'Grafica': 'no label', 'Totalmente': 'no label', });
-lyr_Tiendeaestardeacuerdoconqueloshombrestrabajenmsenelcuidadodelosnios_5.set('fieldLabels', {'Cantón': 'no label', 'Provincia': 'no label', 'Grafica': 'no label', 'Tiendo a e': 'no label', });
-lyr_Tiendeaestardeacuerdoconqueloshombresestnmenoscalificadosquelasmujeresparalastareasdelhogar_6.set('fieldLabels', {'Cantón': 'no label', 'Provincia': 'no label', 'Grafica': 'no label', 'Tiendo a e': 'no label', });
+lyr_Tiendeaestardeacuerdoconqueloshombresestnmenoscalificadosquelasmujeresparalastareasdelhogar_5.set('fieldLabels', {'Cantón': 'no label', 'Provincia': 'no label', 'Grafica': 'no label', 'Tiendo a e': 'no label', });
+lyr_Tiendeaestardeacuerdoconqueloshombrestrabajenmsenelcuidadodelosnios_6.set('fieldLabels', {'Cantón': 'no label', 'Provincia': 'no label', 'Grafica': 'no label', 'Tiendo a e': 'no label', });
 lyr_Totalmentedeacuerdoconquetodalafamiliasufrecuandolamadretienetrabajoatiempocompleto_7.set('fieldLabels', {'Cantón': 'no label', 'Provincia': 'no label', 'Grafica': 'no label', 'Totalmente': 'no label', });
 lyr_Totalmentedeacuerdoconquetodalafamiliasufrecuandolamadretienetrabajoatiempocompleto_7.on('precompose', function(evt) {
     evt.context.globalCompositeOperation = 'normal';
