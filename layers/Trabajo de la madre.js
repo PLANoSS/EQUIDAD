@@ -22,7 +22,7 @@ jsonSource_Creequeelmedioquediseminamsestereotiposdegneroesenlostrabajos_0.addFe
                 declutter: true,
                 source:jsonSource_Creequeelmedioquediseminamsestereotiposdegneroesenlostrabajos_0, 
                 style: style_Creequeelmedioquediseminamsestereotiposdegneroesenlostrabajos_0,
-    title: 'Cree que el medio que disemina más estereotipos de género es en los trabajos<br />\
+    title: '<b/>Percepción sobre la diseminación de estereotipos de género:</b><br />El degradado de colores en el mapa muestra el porcentaje de personas<br />que creen que es en los trabajos donde se disemina más estereotipos<br />de género. <br />\
     <img src="styles/legend/Creequeelmedioquediseminamsestereotiposdegneroesenlostrabajos_0_0.png" />  0 - 20 <br />\
     <img src="styles/legend/Creequeelmedioquediseminamsestereotiposdegneroesenlostrabajos_0_1.png" />  20 - 40 <br />\
     <img src="styles/legend/Creequeelmedioquediseminamsestereotiposdegneroesenlostrabajos_0_2.png" />  40 - 60 <br />\
@@ -38,7 +38,7 @@ jsonSource_Entiendelaviolenciaenelhogarcomoviolenciafsicaentremiembrosdelafamili
                 declutter: true,
                 source:jsonSource_Entiendelaviolenciaenelhogarcomoviolenciafsicaentremiembrosdelafamilia_1, 
                 style: style_Entiendelaviolenciaenelhogarcomoviolenciafsicaentremiembrosdelafamilia_1,
-    title: 'Entiende la violencia en el hogar como violencia física entre miembros de la familia<br />\
+    title: '<b/>Percepción sobre la violencia en el hogar:</b><br />El degradado de colores en el mapa muestra el porcentaje de personas<br />que entienden como “violencia en el hogar” a la violencia física entre<br />miembros de la familia. <br />\
     <img src="styles/legend/Entiendelaviolenciaenelhogarcomoviolenciafsicaentremiembrosdelafamilia_1_0.png" />  0 - 20 <br />\
     <img src="styles/legend/Entiendelaviolenciaenelhogarcomoviolenciafsicaentremiembrosdelafamilia_1_1.png" />  20 - 40 <br />\
     <img src="styles/legend/Entiendelaviolenciaenelhogarcomoviolenciafsicaentremiembrosdelafamilia_1_2.png" />  40 - 60 <br />\
@@ -54,12 +54,12 @@ jsonSource_Asegurarbeneficiossocialesparaincluiralapoblacinenelmercadolaboral_2.
                 declutter: true,
                 source:jsonSource_Asegurarbeneficiossocialesparaincluiralapoblacinenelmercadolaboral_2, 
                 style: style_Asegurarbeneficiossocialesparaincluiralapoblacinenelmercadolaboral_2,
-    title: 'Asegurar beneficios sociales para incluir a la población en el mercado laboral<br />\
+    title: '<b/>Percepción sobre la inclusión laboral:</b><br />El degradado de colores en el mapa muestra el porcentaje de personas<br />que creen que asegurar beneficios sociales puede incluir a la población<br />en el mercado laboral.<br />\
     <img src="styles/legend/Asegurarbeneficiossocialesparaincluiralapoblacinenelmercadolaboral_2_0.png" />  0 - 20 <br />\
     <img src="styles/legend/Asegurarbeneficiossocialesparaincluiralapoblacinenelmercadolaboral_2_1.png" />  20 - 40 <br />\
     <img src="styles/legend/Asegurarbeneficiossocialesparaincluiralapoblacinenelmercadolaboral_2_2.png" />  40 - 60 <br />\
     <img src="styles/legend/Asegurarbeneficiossocialesparaincluiralapoblacinenelmercadolaboral_2_3.png" />  60 - 80 <br />\
-    <img src="styles/legend/Asegurarbeneficiossocialesparaincluiralapoblacinenelmercadolaboral_2_4.png" />  80 - 100 <br />'
+    <img src="styles/legend/Asegurarbeneficiossocialesparaincluiralapoblacinenelmercadolaboral_2_4.png" />  80 - 100 <br /><br />'
         });var format_Anhaydesigualdadesentrehombresymujeres_3 = new ol.format.GeoJSON();
 var features_Anhaydesigualdadesentrehombresymujeres_3 = format_Anhaydesigualdadesentrehombresymujeres_3.readFeatures(json_Anhaydesigualdadesentrehombresymujeres_3, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
@@ -70,12 +70,12 @@ jsonSource_Anhaydesigualdadesentrehombresymujeres_3.addFeatures(features_Anhayde
                 declutter: true,
                 source:jsonSource_Anhaydesigualdadesentrehombresymujeres_3, 
                 style: style_Anhaydesigualdadesentrehombresymujeres_3,
-    title: 'Aún hay desigualdades entre hombres y mujeres<br />\
+    title: '<b/>Percepción sobre desigualdades:</b><br />El degradado de colores en el mapa muestra el porcentaje de personas<br />que piensan que sí, hay todavía algunas desigualdades entre hombres<br />y mujeres.<br />\
     <img src="styles/legend/Anhaydesigualdadesentrehombresymujeres_3_0.png" />  0 - 20 <br />\
     <img src="styles/legend/Anhaydesigualdadesentrehombresymujeres_3_1.png" />  20 - 40 <br />\
     <img src="styles/legend/Anhaydesigualdadesentrehombresymujeres_3_2.png" />  40 - 60 <br />\
     <img src="styles/legend/Anhaydesigualdadesentrehombresymujeres_3_3.png" />  60 - 80 <br />\
-    <img src="styles/legend/Anhaydesigualdadesentrehombresymujeres_3_4.png" />  80 - 100 <br />'
+    <img src="styles/legend/Anhaydesigualdadesentrehombresymujeres_3_4.png" />  80 - 100 <br /><br />'
         });var format_Totalmentedeacuerdoconqueunpadreounamadredebeponersucarreraporencimadelcuidadodesushijos_4 = new ol.format.GeoJSON();
 var features_Totalmentedeacuerdoconqueunpadreounamadredebeponersucarreraporencimadelcuidadodesushijos_4 = format_Totalmentedeacuerdoconqueunpadreounamadredebeponersucarreraporencimadelcuidadodesushijos_4.readFeatures(json_Totalmentedeacuerdoconqueunpadreounamadredebeponersucarreraporencimadelcuidadodesushijos_4, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
@@ -86,12 +86,12 @@ jsonSource_Totalmentedeacuerdoconqueunpadreounamadredebeponersucarreraporencimad
                 declutter: true,
                 source:jsonSource_Totalmentedeacuerdoconqueunpadreounamadredebeponersucarreraporencimadelcuidadodesushijos_4, 
                 style: style_Totalmentedeacuerdoconqueunpadreounamadredebeponersucarreraporencimadelcuidadodesushijos_4,
-    title: 'Totalmente de acuerdo con que un padre o una madre debe poner su carrera por encima del cuidado de sus hijos<br />\
+    title: '<b/>Percepción sobre la carrera de los padres:</b><br />El degradado de colores en el mapa muestra el porcentaje de personas<br />que están totalmente en desacuerdo  en que un padre o una madre<br />debe poner su carrera por encima del cuidado de sus hijos.<br />\
     <img src="styles/legend/Totalmentedeacuerdoconqueunpadreounamadredebeponersucarreraporencimadelcuidadodesushijos_4_0.png" />  0 - 20 <br />\
     <img src="styles/legend/Totalmentedeacuerdoconqueunpadreounamadredebeponersucarreraporencimadelcuidadodesushijos_4_1.png" />  20 - 40 <br />\
     <img src="styles/legend/Totalmentedeacuerdoconqueunpadreounamadredebeponersucarreraporencimadelcuidadodesushijos_4_2.png" />  40 - 60 <br />\
     <img src="styles/legend/Totalmentedeacuerdoconqueunpadreounamadredebeponersucarreraporencimadelcuidadodesushijos_4_3.png" />  60 - 80 <br />\
-    <img src="styles/legend/Totalmentedeacuerdoconqueunpadreounamadredebeponersucarreraporencimadelcuidadodesushijos_4_4.png" />  80 - 100 <br />'
+    <img src="styles/legend/Totalmentedeacuerdoconqueunpadreounamadredebeponersucarreraporencimadelcuidadodesushijos_4_4.png" />  80 - 100 <br /><br />'
         });var format_Tiendeaestardeacuerdoconqueloshombresestnmenoscalificadosquelasmujeresparalastareasdelhogar_5 = new ol.format.GeoJSON();
 var features_Tiendeaestardeacuerdoconqueloshombresestnmenoscalificadosquelasmujeresparalastareasdelhogar_5 = format_Tiendeaestardeacuerdoconqueloshombresestnmenoscalificadosquelasmujeresparalastareasdelhogar_5.readFeatures(json_Tiendeaestardeacuerdoconqueloshombresestnmenoscalificadosquelasmujeresparalastareasdelhogar_5, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
@@ -102,12 +102,12 @@ jsonSource_Tiendeaestardeacuerdoconqueloshombresestnmenoscalificadosquelasmujere
                 declutter: true,
                 source:jsonSource_Tiendeaestardeacuerdoconqueloshombresestnmenoscalificadosquelasmujeresparalastareasdelhogar_5, 
                 style: style_Tiendeaestardeacuerdoconqueloshombresestnmenoscalificadosquelasmujeresparalastareasdelhogar_5,
-    title: 'Tiende a estar de acuerdo con que los hombres están menos calificados que las mujeres para las tareas del hogar<br />\
+    title: '<b/>Percepción sobre las tareas del hogar:</b><br />El degradado de colores en el mapa muestra el porcentaje de personas<br />que tienden a estar de acuerdo en que los hombres están menos calificados<br />que las mujeres para realizar las tareas del hogar.<br />\
     <img src="styles/legend/Tiendeaestardeacuerdoconqueloshombresestnmenoscalificadosquelasmujeresparalastareasdelhogar_5_0.png" />  0 - 20 <br />\
     <img src="styles/legend/Tiendeaestardeacuerdoconqueloshombresestnmenoscalificadosquelasmujeresparalastareasdelhogar_5_1.png" />  20 - 40 <br />\
     <img src="styles/legend/Tiendeaestardeacuerdoconqueloshombresestnmenoscalificadosquelasmujeresparalastareasdelhogar_5_2.png" />  40 - 60 <br />\
     <img src="styles/legend/Tiendeaestardeacuerdoconqueloshombresestnmenoscalificadosquelasmujeresparalastareasdelhogar_5_3.png" />  60 - 80 <br />\
-    <img src="styles/legend/Tiendeaestardeacuerdoconqueloshombresestnmenoscalificadosquelasmujeresparalastareasdelhogar_5_4.png" />  80 - 100 <br />'
+    <img src="styles/legend/Tiendeaestardeacuerdoconqueloshombresestnmenoscalificadosquelasmujeresparalastareasdelhogar_5_4.png" />  80 - 100 <br /><br />'
         });var format_Tiendeaestardeacuerdoconqueloshombrestrabajenmsenelcuidadodelosnios_6 = new ol.format.GeoJSON();
 var features_Tiendeaestardeacuerdoconqueloshombrestrabajenmsenelcuidadodelosnios_6 = format_Tiendeaestardeacuerdoconqueloshombrestrabajenmsenelcuidadodelosnios_6.readFeatures(json_Tiendeaestardeacuerdoconqueloshombrestrabajenmsenelcuidadodelosnios_6, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
@@ -118,12 +118,12 @@ jsonSource_Tiendeaestardeacuerdoconqueloshombrestrabajenmsenelcuidadodelosnios_6
                 declutter: true,
                 source:jsonSource_Tiendeaestardeacuerdoconqueloshombrestrabajenmsenelcuidadodelosnios_6, 
                 style: style_Tiendeaestardeacuerdoconqueloshombrestrabajenmsenelcuidadodelosnios_6,
-    title: 'Tiende a estar de acuerdo con que los hombres trabajen más en el cuidado de los niños<br />\
+    title: '<b/>Percepción sobre el trabajo de los hombres con los niños:</b><br />El degradado de colores en el mapa muestra el porcentaje de personas<br />que tienden a estar de acuerdo  en que los hombres tienen que trabajar más<br />en el cuidado de los niños.<br />\
     <img src="styles/legend/Tiendeaestardeacuerdoconqueloshombrestrabajenmsenelcuidadodelosnios_6_0.png" />  0 - 20 <br />\
     <img src="styles/legend/Tiendeaestardeacuerdoconqueloshombrestrabajenmsenelcuidadodelosnios_6_1.png" />  20 - 40 <br />\
     <img src="styles/legend/Tiendeaestardeacuerdoconqueloshombrestrabajenmsenelcuidadodelosnios_6_2.png" />  40 - 60 <br />\
     <img src="styles/legend/Tiendeaestardeacuerdoconqueloshombrestrabajenmsenelcuidadodelosnios_6_3.png" />  60 - 80 <br />\
-    <img src="styles/legend/Tiendeaestardeacuerdoconqueloshombrestrabajenmsenelcuidadodelosnios_6_4.png" />  80 - 100 <br />'
+    <img src="styles/legend/Tiendeaestardeacuerdoconqueloshombrestrabajenmsenelcuidadodelosnios_6_4.png" />  80 - 100 <br /><br />'
         });var format_Totalmentedeacuerdoconquetodalafamiliasufrecuandolamadretienetrabajoatiempocompleto_7 = new ol.format.GeoJSON();
 var features_Totalmentedeacuerdoconquetodalafamiliasufrecuandolamadretienetrabajoatiempocompleto_7 = format_Totalmentedeacuerdoconquetodalafamiliasufrecuandolamadretienetrabajoatiempocompleto_7.readFeatures(json_Totalmentedeacuerdoconquetodalafamiliasufrecuandolamadretienetrabajoatiempocompleto_7, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
@@ -134,15 +134,15 @@ jsonSource_Totalmentedeacuerdoconquetodalafamiliasufrecuandolamadretienetrabajoa
                 declutter: true,
                 source:jsonSource_Totalmentedeacuerdoconquetodalafamiliasufrecuandolamadretienetrabajoatiempocompleto_7, 
                 style: style_Totalmentedeacuerdoconquetodalafamiliasufrecuandolamadretienetrabajoatiempocompleto_7,
-    title: 'Totalmente de acuerdo con que toda la familia sufre cuando la madre tiene trabajo a tiempo completo<br />\
+    title: '<b/>Percepción sobre el trabajo de la madre a tiempo completo:</b><br />El degradado de colores en el mapa muestra el porcentaje de personas<br />que se encuentran totalmente de acuerdo  con que toda la familia<br />sufre cuando la madre tiene trabajo a tiempo completo<br />\
     <img src="styles/legend/Totalmentedeacuerdoconquetodalafamiliasufrecuandolamadretienetrabajoatiempocompleto_7_0.png" />  0 - 20 <br />\
     <img src="styles/legend/Totalmentedeacuerdoconquetodalafamiliasufrecuandolamadretienetrabajoatiempocompleto_7_1.png" />  20 - 40 <br />\
     <img src="styles/legend/Totalmentedeacuerdoconquetodalafamiliasufrecuandolamadretienetrabajoatiempocompleto_7_2.png" />  40 - 60 <br />\
     <img src="styles/legend/Totalmentedeacuerdoconquetodalafamiliasufrecuandolamadretienetrabajoatiempocompleto_7_3.png" />  60 - 80 <br />\
-    <img src="styles/legend/Totalmentedeacuerdoconquetodalafamiliasufrecuandolamadretienetrabajoatiempocompleto_7_4.png" />  80 - 100 <br />'
+    <img src="styles/legend/Totalmentedeacuerdoconquetodalafamiliasufrecuandolamadretienetrabajoatiempocompleto_7_4.png" />  80 - 100 <br /><br />'
         });
 
-lyr_Creequeelmedioquediseminamsestereotiposdegneroesenlostrabajos_0.setVisible(true);lyr_Entiendelaviolenciaenelhogarcomoviolenciafsicaentremiembrosdelafamilia_1.setVisible(true);lyr_Asegurarbeneficiossocialesparaincluiralapoblacinenelmercadolaboral_2.setVisible(true);lyr_Anhaydesigualdadesentrehombresymujeres_3.setVisible(true);lyr_Totalmentedeacuerdoconqueunpadreounamadredebeponersucarreraporencimadelcuidadodesushijos_4.setVisible(true);lyr_Tiendeaestardeacuerdoconqueloshombresestnmenoscalificadosquelasmujeresparalastareasdelhogar_5.setVisible(true);lyr_Tiendeaestardeacuerdoconqueloshombrestrabajenmsenelcuidadodelosnios_6.setVisible(true);lyr_Totalmentedeacuerdoconquetodalafamiliasufrecuandolamadretienetrabajoatiempocompleto_7.setVisible(true);
+lyr_Creequeelmedioquediseminamsestereotiposdegneroesenlostrabajos_0.setVisible(false);lyr_Entiendelaviolenciaenelhogarcomoviolenciafsicaentremiembrosdelafamilia_1.setVisible(false);lyr_Asegurarbeneficiossocialesparaincluiralapoblacinenelmercadolaboral_2.setVisible(false);lyr_Anhaydesigualdadesentrehombresymujeres_3.setVisible(false);lyr_Totalmentedeacuerdoconqueunpadreounamadredebeponersucarreraporencimadelcuidadodesushijos_4.setVisible(false);lyr_Tiendeaestardeacuerdoconqueloshombresestnmenoscalificadosquelasmujeresparalastareasdelhogar_5.setVisible(false);lyr_Tiendeaestardeacuerdoconqueloshombrestrabajenmsenelcuidadodelosnios_6.setVisible(false);lyr_Totalmentedeacuerdoconquetodalafamiliasufrecuandolamadretienetrabajoatiempocompleto_7.setVisible(true);
 var layersList = [baseLayer,lyr_Creequeelmedioquediseminamsestereotiposdegneroesenlostrabajos_0,lyr_Entiendelaviolenciaenelhogarcomoviolenciafsicaentremiembrosdelafamilia_1,lyr_Asegurarbeneficiossocialesparaincluiralapoblacinenelmercadolaboral_2,lyr_Anhaydesigualdadesentrehombresymujeres_3,lyr_Totalmentedeacuerdoconqueunpadreounamadredebeponersucarreraporencimadelcuidadodesushijos_4,lyr_Tiendeaestardeacuerdoconqueloshombresestnmenoscalificadosquelasmujeresparalastareasdelhogar_5,lyr_Tiendeaestardeacuerdoconqueloshombrestrabajenmsenelcuidadodelosnios_6,lyr_Totalmentedeacuerdoconquetodalafamiliasufrecuandolamadretienetrabajoatiempocompleto_7];
 lyr_Creequeelmedioquediseminamsestereotiposdegneroesenlostrabajos_0.set('fieldAliases', {'Codigo': 'Codigo', 'Cantón': 'Cantón', 'Provincia': 'Provincia', 'Grafica': 'Grafica', 'En los tra': 'En los tra', });
 lyr_Entiendelaviolenciaenelhogarcomoviolenciafsicaentremiembrosdelafamilia_1.set('fieldAliases', {'Codigo': 'Codigo', 'Cantón': 'Cantón', 'Provincia': 'Provincia', 'Grafica': 'Grafica', 'Violencia': 'Violencia', });
