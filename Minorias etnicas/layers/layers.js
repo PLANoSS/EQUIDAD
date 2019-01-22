@@ -22,7 +22,7 @@ jsonSource_Minoriasetnicas_0.addFeatures(features_Minoriasetnicas_0);var lyr_Min
                 declutter: true,
                 source:jsonSource_Minoriasetnicas_0, 
                 style: style_Minoriasetnicas_0,
-    title: '<b/>Percepción sobre desigualdad de género en las minorías éticas:</b><br />El degradado de colores en el mapa indica el porcentaje de<br />personas que creen que <b/>ambos</b> géneros son los que sufren<br />de desigualdad.<br /><br />\
+    title: '<b/>Percepción sobre desigualdad de género en las minorías étnicas:</b><br />El degradado de colores en el mapa indica el porcentaje de<br />personas que creen que <b/>ambos</b> géneros son los que sufren<br />de desigualdad.<br /><br />\
     <img src="styles/legend/Minoriasetnicas_0_0.png" />  0 - 20 <br />\
     <img src="styles/legend/Minoriasetnicas_0_1.png" />  20 - 40 <br />\
     <img src="styles/legend/Minoriasetnicas_0_2.png" />  40 - 60 <br />\
