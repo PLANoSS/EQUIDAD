@@ -22,7 +22,7 @@ jsonSource_Desigualdadenadultosmayores_0.addFeatures(features_Desigualdadenadult
                 declutter: true,
                 source:jsonSource_Desigualdadenadultosmayores_0, 
                 style: style_Desigualdadenadultosmayores_0,
-    title: '<b/>Percepción sobre desigualad de género en adultos mayores:</b><br />El degradado de colores en el mapa indica el porcentaje<br />de personas que creen que <b/>ambos</b> géneros en adultos <br />mayores (65 años) sufren de desigualdad.<br /><br />\
+    title: '<b/>Percepción sobre desigualdad de género en adultos mayores:</b><br />El degradado de colores en el mapa indica el porcentaje<br />de personas que creen que <b/>ambos</b> géneros en adultos <br />mayores (65 años) sufren de desigualdad.<br /><br />\
     <img src="styles/legend/Desigualdadenadultosmayores_0_0.png" />  0 - 20 <br />\
     <img src="styles/legend/Desigualdadenadultosmayores_0_1.png" />  20 - 40 <br />\
     <img src="styles/legend/Desigualdadenadultosmayores_0_2.png" />  40 - 60 <br />\
