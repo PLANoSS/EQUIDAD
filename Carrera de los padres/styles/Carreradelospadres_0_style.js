@@ -6,10 +6,10 @@ var style_Carreradelospadres_0 = function(feature, resolution){
         feature: feature,
         variables: {}
     };
-    var value = feature.get("q2wHide_Totalmente");
+    var value = feature.get("q2wHide_Totalmente desacuerdo (%)");
     var labelText = "";
     size = 0;
-    var labelFont = "9.75px \'MS Shell Dlg 2\', sans-serif";
+    var labelFont = "10.725px \'MS Shell Dlg 2\', sans-serif";
     var labelFill = "rgba(0, 0, 0, 1)";
     var textAlign = "left";
     var offsetX = 8;
@@ -20,31 +20,31 @@ var style_Carreradelospadres_0 = function(feature, resolution){
     }
     if (value > 0.000000 && value <= 20.000000) {
             style = [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(0,0,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0}), fill: new ol.style.Fill({color: 'rgba(247,251,255,1.0)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(0,0,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0}), fill: new ol.style.Fill({color: 'rgba(237,248,251,1.0)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement)
     })]
                     } else if (value > 20.000000 && value <= 40.000000) {
             style = [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(0,0,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0}), fill: new ol.style.Fill({color: 'rgba(199,220,239,1.0)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(0,0,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0}), fill: new ol.style.Fill({color: 'rgba(179,205,227,1.0)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement)
     })]
                     } else if (value > 40.000000 && value <= 60.000000) {
             style = [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(0,0,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0}), fill: new ol.style.Fill({color: 'rgba(114,178,215,1.0)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(0,0,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0}), fill: new ol.style.Fill({color: 'rgba(140,150,198,1.0)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement)
     })]
                     } else if (value > 60.000000 && value <= 80.000000) {
             style = [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(0,0,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0}), fill: new ol.style.Fill({color: 'rgba(40,120,184,1.0)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(0,0,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0}), fill: new ol.style.Fill({color: 'rgba(136,86,167,1.0)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement)
     })]
                     } else if (value > 80.000000 && value <= 100.000000) {
             style = [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(0,0,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0}), fill: new ol.style.Fill({color: 'rgba(8,48,107,1.0)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(0,0,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0}), fill: new ol.style.Fill({color: 'rgba(129,15,124,1.0)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement)
     })]
