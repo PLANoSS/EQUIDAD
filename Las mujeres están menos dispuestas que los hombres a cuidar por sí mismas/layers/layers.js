@@ -22,7 +22,7 @@ jsonSource_Lasmujeresestnmenosdispuestasacuidarporsmismos_0.addFeatures(features
                 declutter: true,
                 source:jsonSource_Lasmujeresestnmenosdispuestasacuidarporsmismos_0, 
                 style: style_Lasmujeresestnmenosdispuestasacuidarporsmismos_0,
-    title: 'Las mujeres están menos dispuestas a cuidar por sí mismos<br />\
+    title: '<b/>Percepción sobre la disposición de la mujer a cuidar por sí misma:</b><br />El degradado de colores en el mapa indica el porcentaje de personas<br />que <b/>tienden a estar en desacuerdo</b> en que las mujeres están menos<br />dispuestas que los hombres a cuidar de sí mismas.<br /><br />\
     <img src="styles/legend/Lasmujeresestnmenosdispuestasacuidarporsmismos_0_0.png" />  0 - 20 <br />\
     <img src="styles/legend/Lasmujeresestnmenosdispuestasacuidarporsmismos_0_1.png" />  20 - 40 <br />\
     <img src="styles/legend/Lasmujeresestnmenosdispuestasacuidarporsmismos_0_2.png" />  40 - 60 <br />\
