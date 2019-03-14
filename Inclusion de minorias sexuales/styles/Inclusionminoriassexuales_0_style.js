@@ -6,7 +6,7 @@ var style_Inclusionminoriassexuales_0 = function(feature, resolution){
         feature: feature,
         variables: {}
     };
-    var value = feature.get("q2wHide_Trabajos e");
+    var value = feature.get("Trabajos en empresas públicas (%)");
     var labelText = "";
     size = 0;
     var labelFont = "10.725px \'MS Shell Dlg 2\', sans-serif";
