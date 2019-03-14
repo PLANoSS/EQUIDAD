@@ -26,14 +26,15 @@ jsonSource_Gruposquesufrenmayordesigualdad_0.addFeatures(features_Gruposquesufre
     <img src="styles/legend/Gruposquesufrenmayordesigualdad_0_0.png" />  0 - 20 <br />\
     <img src="styles/legend/Gruposquesufrenmayordesigualdad_0_1.png" />  20 - 40 <br />\
     <img src="styles/legend/Gruposquesufrenmayordesigualdad_0_2.png" />  40 - 60 <br />\
-    <img src="styles/legend/Gruposquesufrenmayordesigualdad_0_3.png" />  60 - 80 <br />'
+    <img src="styles/legend/Gruposquesufrenmayordesigualdad_0_3.png" />  60 - 80 <br />\
+    <img src="styles/legend/Gruposquesufrenmayordesigualdad_0_4.png" />  80 - 100 <br />'
         });
 
 lyr_Gruposquesufrenmayordesigualdad_0.setVisible(true);
 var layersList = [baseLayer,lyr_Gruposquesufrenmayordesigualdad_0];
-lyr_Gruposquesufrenmayordesigualdad_0.set('fieldAliases', {'Codigo': 'Codigo', 'Canton': 'Canton', 'Provincia': 'Provincia', 'Grafica': 'Grafica', 'Año': 'Año', 'Adultos ma': 'Adultos ma', });
-lyr_Gruposquesufrenmayordesigualdad_0.set('fieldImages', {'Codigo': 'Hidden', 'Canton': 'TextEdit', 'Provincia': 'TextEdit', 'Grafica': 'Photo', 'Año': 'TextEdit', 'Adultos ma': 'Photo', });
-lyr_Gruposquesufrenmayordesigualdad_0.set('fieldLabels', {'Canton': 'no label', 'Provincia': 'no label', 'Grafica': 'no label', 'Año': 'no label', 'Adultos ma': 'no label', });
+lyr_Gruposquesufrenmayordesigualdad_0.set('fieldAliases', {'Codigo': 'Codigo', 'Canton': 'Canton', 'Provincia': 'Provincia', 'Grafica': 'Grafica', 'Año': 'Año', 'Adultos mayores a los 65 años (%)': 'Adultos mayores a los 65 años (%)', });
+lyr_Gruposquesufrenmayordesigualdad_0.set('fieldImages', {'Codigo': 'Hidden', 'Canton': 'TextEdit', 'Provincia': 'TextEdit', 'Grafica': 'Photo', 'Año': 'TextEdit', 'Adultos mayores a los 65 años (%)': 'Hidden', });
+lyr_Gruposquesufrenmayordesigualdad_0.set('fieldLabels', {'Canton': 'header label', 'Provincia': 'header label', 'Grafica': 'no label', 'Año': 'header label', });
 lyr_Gruposquesufrenmayordesigualdad_0.on('precompose', function(evt) {
     evt.context.globalCompositeOperation = 'normal';
 });
